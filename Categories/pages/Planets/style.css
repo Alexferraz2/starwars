@@ -1,0 +1,87 @@
+@font-face {
+    font-family: jedi-outline;
+    src: url(assets/fonts/starjedi/Starjhol.ttf);
+}
+
+.title {
+    font-family: jedi-outline;
+    font-size: 4rem;
+    color: #FFEE58!important;
+    text-align: center;
+    
+}
+
+.sub-title{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: .75rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+
+section {
+    width: 85vw;
+      
+    
+}
+
+#img-0, #name-0 {
+    display: none;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container-planet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 2px 2px 2px;
+    
+    
+}
+
+.container-planet:hover{
+    cursor: pointer;
+    box-shadow: 0 0 8px 4px #999;
+    transition: box-shadow .1s;
+    
+}
+
+p {
+    text-align: center;
+    color: #999;
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: center;
+    background-color: #fff;
+}
+img {
+    width: 12rem;
+    height: 12rem;
+    padding: 1rem;
+    
+}
+
+
+
+
+
+
